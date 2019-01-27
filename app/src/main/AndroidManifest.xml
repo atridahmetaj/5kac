@@ -17,8 +17,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Solo" />
-        <activity android:name=".Dhoma"></activity>
+        <activity android:name=".MultiPlayerRoom" />
+        <activity android:name=".SingleRoom"></activity>
+        <activity android:name=".PlayingRoom"></activity>
     </application>
 
 </manifest>

@@ -8,7 +8,7 @@ public class MultiPlayerRoom extends PlayingRoom {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    linearLayout = new LinearLayout(this);
+    linearLayout = new LinearLayout(getApplicationContext());
     splitCards();
     setContentView(linearLayout);
   }

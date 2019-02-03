@@ -2,11 +2,16 @@ package com.example.crs.a5kac;
 
 import android.content.Context;
 import android.support.v7.widget.AppCompatImageView;
+import android.view.View;
+import android.widget.ImageView;
 
-public class Card extends AppCompatImageView {
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-  public Card(Context context, int id) {
-    super(context);
-    setImageResource(id);
+public class Card {
+
+  public Card() {
+    super();
+
   }
 }

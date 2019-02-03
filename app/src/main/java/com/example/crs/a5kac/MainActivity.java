@@ -21,13 +21,13 @@ public class MainActivity extends Activity {
 
     multiplayer.setOnClickListener(new View.OnClickListener() {
       public void onClick(View v) {
-        startActivity(new Intent(MainActivity.this, MultiPlayerRoom.class));
+        startActivity(new Intent(getApplicationContext(), MultiPlayerRoom.class));
       }
     });
 
     solo.setOnClickListener(new View.OnClickListener() {
       public void onClick(View v) {
-        startActivity(new Intent(MainActivity.this, SingleRoom.class));
+        startActivity(new Intent(getApplicationContext(), SingleRoom.class));
       }
     });
   }
